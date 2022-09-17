@@ -1,0 +1,65 @@
+@import url("Saiyan-Sans.ttf");
+body {
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  background-image: url("1003880.png");
+}
+
+div.personaje {
+  background: #0d7373a2;
+  box-shadow: 0 0 8px #730d0d;
+  color: #fff;
+  text-align: center;
+  max-width: 11em;
+  padding: 3px 11px;
+  border-radius: 50px;
+  display: flex;
+  margin: 3px 2px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 5px 3px;
+  
+}
+
+.img-personaje {
+  width: 100px;
+  height:auto;
+  margin-top: -15px;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0 0 0;
+}
+
+#content > div > p{
+  width: 75%;
+}
+
+.btn{
+  background: #620000a2;
+  width: auto;
+  height: 3em;
+  border-radius: 35px;
+  padding: 10px;
+  font-family: "Saiyan-Sans";
+  color: #fff;
+  font-size: 1.5em;
+}
+.content-btn{
+  flex-wrap: wrap;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+@font-face {
+  font-family: "Saiyan-Sans"; ;
+  src: url( "Saiyan-Sans.ttf" );
+}
