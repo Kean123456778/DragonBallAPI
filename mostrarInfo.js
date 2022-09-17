@@ -1,7 +1,6 @@
 function mostrarInfo(data) {
     let array = data;
     array.forEach((personaje) => {
-      console.log(personaje);
       let Personaje = personaje.name;
       let specie = personaje.specie;
       let imgSrc = personaje.imageUrl;

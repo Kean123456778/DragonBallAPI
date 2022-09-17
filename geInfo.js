@@ -82,7 +82,6 @@ export function obtenerPersonajeAleatorio() {
     .then( (data) => {
         const array = data.data;
         const numeroAleatorio = Math.floor(Math.random() * array.length);
-        console.log(numeroAleatorio);
         const aleatorio = array.filter((personaje) => personaje.id ===   numeroAleatorio);
         borrado();
         mostrarInfo(aleatorio);

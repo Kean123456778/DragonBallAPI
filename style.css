@@ -1,9 +1,9 @@
-@import url("Saiyan-Sans.ttf");
+@import url("./assets/Saiyan-Sans.ttf");
 body {
   font-size: 14px;
   line-height: 1.42857143;
   margin: 0;
-  background-image: url("1003880.png");
+  background-image: url("./assets/1003880.png");
 }
 
 div.personaje {
@@ -42,7 +42,7 @@ div.personaje {
 }
 
 .btn{
-  background: #620000a2;
+  background: #620000b7;
   width: auto;
   height: 3em;
   border-radius: 35px;
@@ -50,10 +50,16 @@ div.personaje {
   font-family: "Saiyan-Sans";
   color: #fff;
   font-size: 1.5em;
+  margin: 5px 3px;
+}
+.btn:hover{
+  background: #db4141c4;
+  cursor: pointer;
+  color: #f7f30ba2;
+  box-shadow: 0 0 10px 5px rgb(255, 230, 0);
 }
 .content-btn{
   flex-wrap: wrap;
-
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -61,5 +67,5 @@ div.personaje {
 
 @font-face {
   font-family: "Saiyan-Sans"; ;
-  src: url( "Saiyan-Sans.ttf" );
+  src: url( "/assets/Saiyan-Sans.ttf" );
 }
