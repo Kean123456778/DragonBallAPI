@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="./assets/ball.svg.png" type="image/png" />
-    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DragonBallAPI</title>
+</head>
+<body>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>DragonBall API</title>
-  </head>
-  <body>
-    <div id="containerButtons" class="content-btn">
-        <button class="btn"  id="btn-todos"> Z Obtener todos los personajes Z</button><br />
-        <button class="btn" id="btn-angeles"> Z Obtener Angeles Z</button><br />
-        <button  class="btn" id="btn-saiyan"> Z Obtener Saiyans Z</button><br />
-        <button  class="btn" id="btn-fusions"> Z Obtener Fusiones Z</button><br />
-        <button  class="btn" id="btn-humans"> Z Obtener Humanos Z</button><br />
-        <button  class="btn" id="btn-namekians"> Z Obtener Namekianos Z</button><br />
-        <button  class="btn" id="btn-mestizos"> Z Obtener Sayayins mestizos Z</button><br />
-        <button  class="btn" id="btn-aleatorio"> Z Obtener Aleatorio Z</button><br />
+    <div id="container-buttons">
+        <button id="btn-todos">Obtener todos los personajes</button>
+        <button id="btn-angeles">Obtener Angeles</button>
+        <button id="btn-saiyans">Obtener Saiyans</button>
+        <button id="btn-fusions">Obtener Fusiones</button>
+        <button id="btn-humans">Obtener Humanos</button>
+        <button id="btn-namekians">Obtener Namekianos</button>
+        <button id="btn-mestizos">Obtener Mestizos</button>
+        <button id="btn-aleatorio">Obtener Personaje aleatorio</button>
+        <button id="btn-borrar">Limpiar ventana</button>
 
-
-
-        <button  class="btn" id="btn-borrar"> Z Limpiar Ventana</button><br />
-        
-        
     </div>
-    <div id="content"></div>
+    <div id="container-app"></div>
 
-    <script src="main.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </body>
+
+
+    <script src="./src/main.js" type="module"  ></script>
+</body>
 </html>
-
-
-
